@@ -15,7 +15,7 @@ screen = pygame.display.set_mode(WINDOW_SIZE, 0, 32)
 display = pygame.Surface((100, 75))  # used as the surface for rendering, which could do things like scaling
 
 # load images
-knight_sprite = pygame.image.load('resources/sword/chr_sword.png').convert_alpha()
+knight_sprite = pygame.image.load('resources/knight/chr_knight.png').convert_alpha()
 
 # prepare variables
 key_status = {}
